@@ -717,6 +717,17 @@ if you would rather browse from inside the app.
   ```
 
   </details>
+- **Run GitHub review and repo work from the session** with [dsh-github](https://github.com/PerryLink/dsh-github) by [PerryLink](https://github.com/PerryLink). PR review bot with inline comments, a status gate, and approval-gated issue, repo and file tools. 15★, Apache-2.0.
+
+  <details>
+  <summary>Install</summary>
+
+  ```sh
+  dsh plugin --profile web add @perrylink/dsh-github
+  ```
+
+  </details>
+
 
 
 ### Notifications and messaging
