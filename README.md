@@ -576,6 +576,16 @@ if you would rather browse from inside the app.
   ```
 
   </details>
+- **Ask the model yes/no, choice and score questions with calibrated probabilities** with [dsh-laya](https://github.com/PerryLink/dsh-laya) by [PerryLink](https://github.com/PerryLink). Laya typed decisions as a first-class Cordis service plus `laya_ask` and `laya_plan` tools; the plugin installs nothing and talks to a `laya-mcp serve` sidecar you start yourself. 1★, Apache-2.0.
+
+  <details>
+  <summary>Install</summary>
+
+  ```sh
+  dsh plugin --profile web add dsh-laya
+  ```
+
+  </details>
 
 
 ### Run a team of agents
